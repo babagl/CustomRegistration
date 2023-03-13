@@ -14,6 +14,8 @@
 		021DF2C729BE268900C56EE8 /* QrCodeGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DF2C629BE268900C56EE8 /* QrCodeGenTests.swift */; };
 		021DF2D129BE268900C56EE8 /* QrCodeGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DF2D029BE268900C56EE8 /* QrCodeGenUITests.swift */; };
 		021DF2D329BE268900C56EE8 /* QrCodeGenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DF2D229BE268900C56EE8 /* QrCodeGenUITestsLaunchTests.swift */; };
+		021DF2E129BE26DB00C56EE8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DF2E029BE26DB00C56EE8 /* UserViewModel.swift */; };
+		021DF2E429BE275C00C56EE8 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021DF2E329BE275C00C56EE8 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		021DF2CC29BE268900C56EE8 /* QrCodeGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QrCodeGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		021DF2D029BE268900C56EE8 /* QrCodeGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeGenUITests.swift; sourceTree = "<group>"; };
 		021DF2D229BE268900C56EE8 /* QrCodeGenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeGenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		021DF2E029BE26DB00C56EE8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		021DF2E329BE275C00C56EE8 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		021DF2B429BE268700C56EE8 /* QrCodeGen */ = {
 			isa = PBXGroup;
 			children = (
+				021DF2E229BE274500C56EE8 /* View */,
+				021DF2DF29BE26BE00C56EE8 /* ViewModel */,
 				021DF2B529BE268700C56EE8 /* QrCodeGenApp.swift */,
 				021DF2B729BE268700C56EE8 /* ContentView.swift */,
 				021DF2B929BE268900C56EE8 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				021DF2D229BE268900C56EE8 /* QrCodeGenUITestsLaunchTests.swift */,
 			);
 			path = QrCodeGenUITests;
+			sourceTree = "<group>";
+		};
+		021DF2DF29BE26BE00C56EE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				021DF2E029BE26DB00C56EE8 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		021DF2E229BE274500C56EE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				021DF2E329BE275C00C56EE8 /* UserView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				021DF2B829BE268700C56EE8 /* ContentView.swift in Sources */,
+				021DF2E129BE26DB00C56EE8 /* UserViewModel.swift in Sources */,
 				021DF2B629BE268700C56EE8 /* QrCodeGenApp.swift in Sources */,
+				021DF2E429BE275C00C56EE8 /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
